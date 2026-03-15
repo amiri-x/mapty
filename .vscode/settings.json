@@ -1,5 +1,11 @@
 {
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
-  "editor.insertSpaces": true
+  "editor.insertSpaces": true,
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "inline",
+    "strings": "inline"
+  },
+  "editor.suggestOnTriggerCharacters": false
 }
