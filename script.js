@@ -105,7 +105,7 @@ class App {
     // listeners
     form.addEventListener("submit", this._newWorkout.bind(this));
     inputType.addEventListener("change", this._toggleElevationField);
-    containerWorkouts.addEventListner("click", this._moveToPopup.bind(this));
+    containerWorkouts.addEventListener("click", this._moveToPopup.bind(this));
 
   }
   // get position by geolocation
